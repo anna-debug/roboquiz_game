@@ -1,0 +1,8 @@
+<launch>
+    <node name="main_game_node" pkg="roboquiz_main" type="main_game_node" output="screen"/>
+    <node name="question_answer_service" pkg="roboquiz_main" type="question_answer_service.py" />
+    <include file="$(find ros_vosk)launch/ros_vosk.launch"/>
+    <node name="soundplay_node" pkg="sound_play" type="soundplay_node.py"/>
+    
+</launch>
+
