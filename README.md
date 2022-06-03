@@ -1,4 +1,4 @@
-# roboquiz
+# Roboquiz - an Interactive Robot-Human Game
 
 The main package of the project is called `roboquiz_main`, containing the two novel nodes. This repo should be cloned inside `caktin_ws/src`.
 
